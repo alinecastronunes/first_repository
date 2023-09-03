@@ -1,0 +1,3 @@
+const alunos = ['Bárbara', 'Amanda', 'Otacílio', 'Bruno', 'Marcos']
+alunos.shift()
+console.log(alunos)
