@@ -1,0 +1,7 @@
+const listaDeCompras = ["Arroz", "Batata", "Laranja", "Lentilha", "Banana", "Vinagre"];
+
+let indice = 0;
+while (indice < listaDeCompras.length) {
+console.log(listaDeCompras[indice]);
+indice++;
+}
