@@ -1,0 +1,14 @@
+// Salário com Bônus 
+// Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). 
+// Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês. 
+
+let nomeVendedor, salarioFixo, totalDeVendas
+
+nomeVendedor = window.prompt("Digite o seu nome: ")
+salarioFixo = parseFloat(window.prompt("Digite o seu salário fixo: "))
+totalDeVendas = parseFloat(window.prompt("Digite o total de vendas efetuadas por você neste mês (em dinheiro): "))
+
+let bonus = (15 * totalDeVendas) / 100
+let salarioMaisBonus = salarioFixo + bonus
+
+console.log(`${nomeVendedor}, o total que você receberá este mês é de: ${salarioMaisBonus}.`)
