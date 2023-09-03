@@ -1,0 +1,11 @@
+let notaA, notaB, media
+
+notaA = parseFloat(window.prompt("Digite a sua primeira nota: "))
+notaB = parseFloat(window.prompt("Digite a sua segunda nota: "))
+const pesoA = 3.5
+const pesoB = 7.5
+notaA = notaA * pesoA
+notaB = notaB * pesoB
+const somaNotas = notaA + notaB
+media = somaNotas / (pesoA + pesoB)
+console.log(media)
