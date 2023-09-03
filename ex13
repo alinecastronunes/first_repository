@@ -1,0 +1,10 @@
+let primeiroValor
+let segundoValor
+let soma
+
+primeiroValor = parseInt(window.prompt("Digite um número:"))
+segundoValor = parseInt(window.prompt("Digite outro número:"))
+
+soma = primeiroValor + segundoValor
+
+console.log(soma)
