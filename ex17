@@ -1,0 +1,17 @@
+let notaA, notaB, notaC
+
+notaA = parseFloat(window.prompt("Digite a sua primeira nota: "))
+notaB = parseFloat(window.prompt("Digite a sua segunda nota: "))
+notaC = parseFloat(window.prompt("Digite a sua terceira nota: "))
+
+const pesoNotaA = 2
+const pesoNotaB = 3
+const pesoNotaC = 5
+
+notaA = notaA * pesoNotaA
+notaB = notaB * pesoNotaB
+notaC = notaC * pesoNotaC
+
+media = (notaA + notaB + notaC) / (pesoNotaA + pesoNotaB + pesoNotaC)
+
+console.log("A sua média foi: " + media)
