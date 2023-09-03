@@ -1,0 +1,3 @@
+const alunos = ['Ana', 'Marta', 'Mirian', 'Pedro', 'Alexandre'];
+alunos.pop()
+console.log(alunos)
