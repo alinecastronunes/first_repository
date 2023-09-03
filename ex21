@@ -1,0 +1,8 @@
+// Conversão de moedas 
+// Você quer saber o valor em real de um produto em uma loja virtual que está precificado em dólar.
+// Faça um programa que leia a cotação do dólar e faça a conversão em real
+
+let produtoLoja = parseFloat(window.prompt("Digite o valor (em dólar) do produto que você deseja comprar: "))
+let cotacaoDolar = 4.98
+const total = produtoLoja * 4.98
+console.log(`O valor em real é de: ${total}`)
