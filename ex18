@@ -1,0 +1,12 @@
+// Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. 
+// A seguir, mostre o número e o salário do funcionário.
+
+let numeroCracha, horasTrabalhadas, valorHora, salario
+
+numeroCracha = parseInt(window.prompt("Digite o número do seu crachá: "))
+horasTrabalhadas = parseFloat(window.prompt("Digite o seu número de horas trabalhadas: "))
+valorHora = parseFloat(window.prompt("Digite o valor que você recebe por hora trabalhada: "))
+
+salario = horasTrabalhadas * valorHora
+
+console.log(`O seu número de funcionário é: ${numeroCracha}, e o seu salário é de: ${salario}`);
