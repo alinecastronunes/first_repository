@@ -1,0 +1,3 @@
+const coresPreferidas = ['Roxo', 'Lilás', 'Amarelo', 'Rosa', 'Laranja', 'Preto']
+coresPreferidas.unshift('Branco')
+console.log(coresPreferidas)
