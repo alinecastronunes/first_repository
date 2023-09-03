@@ -1,0 +1,4 @@
+let imprimeSaudacao = "Seja bem vindo (a), "
+resultadoNome = window.prompt("Qual o seu nome?")
+
+console.log(imprimeSaudacao + resultadoNome)
