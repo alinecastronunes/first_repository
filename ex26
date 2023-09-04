@@ -1,0 +1,12 @@
+// Se o valor da mesada for maior ou igual a R$30,00, vamos ao cinema. // Caso contrário, vamos assistir Netflix!
+
+let mesada
+
+mesada = parseFloat(window.prompt("Digite o valor da sua mesada: "))
+
+if (mesada >=30) {
+console.log("Nós iremos assistir filme no cinema.")
+}
+else {
+console.log("Nós iremos assistir netflix em casa!")
+}
