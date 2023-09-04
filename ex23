@@ -1,0 +1,18 @@
+// Escreva um programa que receba um operador de soma ou subtração, e dois números inteiros. 
+// Mostre o resultado da operação em seguida.
+
+let primeiroValor, segundoValor, operador
+operador = (window.prompt("Para fazer o cálculo, digite o operador de soma ou de subtração: "));
+primeiroValor = parseInt(window.prompt("Digite o primeiro valor: "));
+segundoValor = parseInt(window.prompt("Digite o segundo valor: "));
+
+let soma = primeiroValor + segundoValor;
+let subtracao = primeiroValor - segundoValor;
+
+if (operador === "+") {
+console.log(soma);
+} else if (operador === "-") {
+console.log(subtracao);
+} else { 
+throw new Error(console.log("Operador inválido"));
+}
