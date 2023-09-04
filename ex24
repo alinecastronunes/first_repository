@@ -1,0 +1,13 @@
+// Receba a idade do usuário e informe se ele é maior ou menor de idade.
+
+let maiorDeIdade, menordeIdade, idade
+idade = parseInt(window.prompt("Digite a sua idade: "))
+
+maiorDeIdade = "Você é maior de idade."
+menorDeIdade = "Você é menor de idade"
+if (idade >= 18) {
+console.log(maiorDeIdade)
+}
+else {
+console.log(menorDeIdade)
+}
