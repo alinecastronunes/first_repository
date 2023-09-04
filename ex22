@@ -1,0 +1,14 @@
+// Ler dois valores reais, efetuar a adição e apresentar seu resultado apenas se o valor somado for maior ou igual a 10.
+
+let primeiroValor, segundoValor, soma
+primeiroValor = parseFloat(window.prompt("Digite um número: "));
+segundoValor = parseFloat(window.prompt("Digite um segundo número: "))
+
+soma = primeiroValor + segundoValor;
+
+if (soma >= 10) {
+console.log(soma)
+}
+else {
+throw new Error(console.log("Números inválidos"))
+}
